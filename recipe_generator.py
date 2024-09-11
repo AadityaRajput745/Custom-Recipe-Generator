@@ -1,4 +1,4 @@
-from boltiotai import openai
+import openai
 from flask import Flask, render_template_string, request
 openai.api_key ="Enter your API key here"
 def generate_tutorial(components):
